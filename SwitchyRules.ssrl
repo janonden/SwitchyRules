@@ -1,4 +1,5 @@
 ; Summary: Proxy Switchy! Exported Rule List
+; Date: 2014年10月8日
 ; Website: http://bit.ly/proxyswitchy
 
 #BEGIN
@@ -2382,11 +2383,18 @@ http://*69.65.19.160
 !@http://ime.baidu.jp*
 *://*.adblockplus.org/*
 *://*.akamaihd.net/*
+*://*.android.com/*
+*://*.angularjs.org/*
+*://*.bittorrent.com/*
+*://*.brsbox.com/*
 *://*.cex.io/*
 *://*.chinagfw.org/*
+*://*.chrome.com/*
 *://*.cloudflare.com/*
+*://*.cloudfoundry.com/*
 *://docs.*.googlecode.com/*
 *://*.dropbox.com/*
+*://*.dropboxusercontent.com/*
 *://earnfreebitcoins.com/*
 *://*.evernote.com/*
 *://*.facebook.com/*
@@ -2404,6 +2412,7 @@ http://*69.65.19.160
 *://*.google.com.hk/*
 *://*.googleapis.com/*
 *://*.googlecode.com/*
+*://*.googlesource.com/*
 *://*.googleusercontent.com/*
 *://*.greatfire.org/*
 *://*.gstatic.com/*
@@ -2413,18 +2422,37 @@ http://*69.65.19.160
 *://*.msn.cn/*
 *://*.openssl.org/*
 *://ow.ly/*
+*://*.pypa.io/*
 *://*.reddit.com/*
 *://*.s-msn.com/*
 *://*.torproject.org/*
+*://uproxy.org/*
+*://userscripts.org/*
+*://*.utorrent.com/*
 *://*.vpngate.jp/*
 *://*.vpngate.net/*
+*://*.xiaofang.me/*
 *://*.zapto.org/*
-*://*.p6like.com/*
-*://s3.amazonaws.com/*
-*://autoproxy.org/*
-*://samabox.com/*
+*://*.playframework.org/*
 
 [regexp]
+^[\w\-]+:\/+(?!\/)(?:[^\/]+\.)?www\.shwchurch\.org
+^[\w\-]+:\/+(?!\/)(?:[^\/]+\.)?dropbox\.com
+^[\w\-]+:\/+(?!\/)(?:[^\/]+\.)?vpn\.xiaofang\.me
+^[\w\-]+:\/+(?!\/)(?:[^\/]+\.)?google\.co\.jp
+^[\w\-]+:\/+(?!\/)(?:[^\/]+\.)?wsj\.com
+^[\w\-]+:\/+(?!\/)(?:[^\/]+\.)?base64encode\.org
+^[\w\-]+:\/+(?!\/)(?:[^\/]+\.)?base64decode\.org
+^[\w\-]+:\/+(?!\/)(?:[^\/]+\.)?sstatic\.net
+^[\w\-]+:\/+(?!\/)(?:[^\/]+\.)?google.*\.com
+^[\w\-]+:\/+(?!\/)(?:[^\/]+\.)?ggpht\.com
+^[\w\-]+:\/+(?!\/)(?:[^\/]+\.)?cloudfront\.net
+^[\w\-]+:\/+(?!\/)(?:[^\/]+\.)?s3\.amazonaws\.com
+^[\w\-]+:\/+(?!\/)(?:[^\/]+\.)?gmail\.com
+^[\w\-]+:\/+(?!\/)(?:[^\/]+\.)?life\.com\.tw
+^[\w\-]+:\/+(?!\/)(?:[^\/]+\.)?liangyou\.net
+^[\w\-]+:\/+(?!\/)(?:[^\/]+\.)?angularjs\.org
+^[\w\-]+:\/+(?!\/)(?:[^\/]+\.)?eslite\.com
 ^[\w\-]+:\/+(?!\/)(?:[^\/]+\.)?darpa\.mil
 ^[\w\-]+:\/+(?!\/)(?:[^\/]+\.)?fxnetworks\.com
 ^[\w\-]+:\/+(?!\/)(?:[^\/]+\.)?muzu\.tv
