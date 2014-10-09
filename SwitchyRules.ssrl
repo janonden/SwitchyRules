@@ -2432,6 +2432,7 @@ http://*69.65.19.160
 *://*.zapto.org/*
 *://*.playframework.org/*
 *://*.githubusercontent.com/*
+*://*.glass8.eu/*
 
 [regexp]
 ^[\w\-]+:\/+(?!\/)(?:[^\/]+\.)?www\.shwchurch\.org
